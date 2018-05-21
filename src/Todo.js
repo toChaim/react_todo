@@ -7,12 +7,10 @@ class Todo extends Component {
 				id={this.props.id}
 				className={`Todo ${this.props.complete ? " complete" : ""}`}
 			>
-				<button onClick={this.props.handleComplete}>
-					{this.props.complete ? "Mark Incomplete" : "Mark Complete"}
-				</button>
+				<input type="checkbox" onClick={this.props.handleComplete} value={this.props.complete}/>
 				{this.props.name}
-				<button onClick={this.props.handleEdit}>Edit</button>
-				<button onClick={this.props.handleDelete}>Remove</button>
+				<button onClick={this.props.handleEdit}>✎</button>
+				<button onClick={this.props.handleDelete}>✗</button>
 			</li>
 		);
 	}
