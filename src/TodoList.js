@@ -119,11 +119,12 @@ class TodoList extends Component {
 			);
 		});
 		return (
-			<div className="TodoList">
-				<NewTodoForm handleAdd={this.handleAdd} />
-				<h1>{this.props.title}</h1>
-				<ul>{todoItems}</ul>
-			</div>
+				
+				<ul className="TodoList">
+					<h1>{this.props.title}</h1>
+					<NewTodoForm handleAdd={this.handleAdd} />
+					{todoItems}
+				</ul>
 		);
 	}
 }
