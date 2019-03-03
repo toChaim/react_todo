@@ -10,7 +10,6 @@ class Todo extends Component {
 				<input type="checkbox" onClick={this.props.handleComplete} value={this.props.complete}/>
 				{this.props.name}
 				<button onClick={this.props.handleEdit}>✎</button>
-				<button onClick={this.props.handleDelete}>✗</button>
 			</li>
 		);
 	}
