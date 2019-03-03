@@ -32,6 +32,7 @@ class EditTodoForm extends Component {
 						onChange={this.handleChange}
 					/>
 					<button type="submit">Save</button>
+					<button onClick={this.props.handleDelete}>✗ Delete</button>
 				</form>
 			</li>
 		);
