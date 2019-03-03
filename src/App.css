@@ -1,3 +1,21 @@
+div{
+  border: 1px dashed red;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  border: 1px dashed blue;
+}
+
+li{
+  border: 1px dashed red;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .App {
   text-align: center;
 }
@@ -7,6 +25,3 @@
   color: grey;
 }
 
-ul {
-  list-style: none;
-}
