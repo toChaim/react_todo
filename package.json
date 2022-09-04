@@ -7,7 +7,6 @@
     "react-dom": "^16.10.2",
     "react-redux": "^6.0.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.8",
     "redux": "^4.0.4"
   },
   "scripts": {
@@ -21,5 +20,12 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "engines": {
+    "npm": ">=8.8.0",
+    "node": ">=14.17.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
 }
